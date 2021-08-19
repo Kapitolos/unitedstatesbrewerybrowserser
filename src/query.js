@@ -12,20 +12,15 @@ class Query extends React.Component {
           isLoaded: false
         };
     
-        this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.change = this.change.bind(this);
-      }
-    
-      handleChange(event) {
-        this.setState({value: event.target.value});
       }
     
       handleSubmit(event) {
         event.preventDefault();
         this.change(event);
       }
-
+      // On our dropdown form we load our query into the API and set our state to be passed below.
       change(event) {
         this.setState({value: event.target.value});
         console.log(this.state.value)
@@ -108,7 +103,7 @@ class Query extends React.Component {
           </div>
           </div>
           
-
+          {/* The query is passed to our component with the json data set to go. */}
           <BrewResults items={this.state.items} isLoaded={this.state.isLoaded} />
           </div>
         );

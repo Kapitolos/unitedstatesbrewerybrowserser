@@ -14,8 +14,7 @@ class BrewResults extends React.Component {
     
     render() 
     {
-        console.log(this.props.props);
-     
+
       return (
           <div id="brewlist">
           <h1>{this.props.props}</h1>
