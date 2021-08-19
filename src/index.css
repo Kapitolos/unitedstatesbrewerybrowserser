@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: burlywood;
+  background-image: url("bg.jpg");
+  background-size: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+h1 {
+  font-family: 'EB Garamond', serif;
+}
+
+h4 {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 2px rgb(2, 2, 0);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: rgb(255, 173, 49);
+	border-radius: 35px;
+  }
+
+  a {
+    text-decoration: none;
+    color:black;
+  }
