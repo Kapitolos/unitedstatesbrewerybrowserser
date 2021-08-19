@@ -43,3 +43,29 @@ h4 {
     text-decoration: none;
     color:black;
   }
+
+  @media screen and (max-width: 768px) {
+
+    body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(233, 233, 145);
+    background-position-x: center;
+    background-position-y: 0%;
+    background-size: 252%;
+    }
+
+  }
+
+  @media screen and (max-width: 450px) {
+	
+    body {
+      background-image: url(bg.jpg);
+      background-repeat: no-repeat;
+      background-color: rgb(233, 233, 145);
+      background-position-x: center;
+      background-position-y: -0%;
+      background-size: 336%;
+    }
+
+  }

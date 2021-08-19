@@ -13,3 +13,40 @@ width: 30%;
 	border-radius: 15%;
 	background-color: rgb(252, 252, 220) ;
 }
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+	#brewselect {
+	  color: rgb(92, 90, 0);
+	  position: absolute;
+	  margin-left: 15%;
+	  background: linear-gradient(rgb(255, 255, 161), white);
+	  padding: 10px;
+	  text-align: center;
+	  border-style: solid;
+	  font-size: 18pt;
+	  width: 66%;
+	}
+	
+	
+}
+
+@media screen and (max-width: 450px) {
+		
+		
+	#brewselect {
+		color: rgb(92, 90, 0);
+		position: absolute;
+		margin-left: 1%;
+		background: linear-gradient(rgb(255, 255, 161), white);
+		padding: 10px;
+		text-align: center;
+		border-style: solid;
+		font-size: 11pt;
+		width: 86%;
+	  }
+}
