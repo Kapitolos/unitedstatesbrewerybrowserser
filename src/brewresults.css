@@ -8,13 +8,16 @@
     overflow-x: hidden;
     width: 40%;
     height: 61%;
-	background:linear-gradient(rgb(255, 255, 161), white);
+	background:linear-gradient(rgb(241, 255, 161), white);
 	padding: 10px;
 }
 
 #brewtext {
     animation-name: appear;
     animation-duration: 2s;
+  }
+  #brewtext:hover {
+    color:rgb(155, 108, 7);
   }
   @keyframes appear{
     from{opacity: 0;}
@@ -52,10 +55,14 @@
       border-style: solid;
       overflow-y: scroll;
       overflow-x: hidden;
-      width: 84%;
-      height: 53%;
+      width: 86%;
+      height: 60%;
       background: linear-gradient(rgb(255, 255, 161), white);
       padding: 10px;
+    }
+
+    #brewtext {
+      font-size: 12pt;
     }
   }
 

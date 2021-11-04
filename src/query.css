@@ -41,7 +41,8 @@ width: 30%;
 	#brewselect {
 		color: rgb(92, 90, 0);
 		position: absolute;
-		margin-left: 1%;
+		margin-left: 3%;
+		margin-top: 2%;
 		background: linear-gradient(rgb(255, 255, 161), white);
 		padding: 10px;
 		text-align: center;
